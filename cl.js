@@ -32,9 +32,13 @@ cl.checkCookie = function () {
         cl.setCookie(cookieName, cookieChk, 365);
     } else {
         cl.div = document.createElement("div");
-        cl.div.innerHTML = '<p style="text-align: center;color: white;padding: 1em;">'+
-            'Su questo sito utilizziamo cookie tecnici e per raccogliere '+
+        cl.div.innerHTML = 
+            '<p style="text-align: center;color: white;padding: 1em;">'+
+            'Su questo sito utilizziamo cookie per motivi tecnici e per raccogliere '+
             'in modo anonimo statistiche sugli accessi</p>'+
+            '<p style="text-align: center;color: white;padding: 1em; border-top:1px dashed white;">'+
+            'On this site we use cookies for technical purposes and to collect '+
+            'anonymous data about site visits</p>'+
             '<p style="text-align:center">'+
             '<a style="color: black;background: white;padding: .5em 2em;border: 1px solid black;" href="javascript:void(0)" onclick="cl.acceptCookies()">OK</a></p>';
         document.getElementsByTagName('body')[0].appendChild(cl.div);
