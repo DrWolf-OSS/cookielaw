@@ -34,7 +34,7 @@ cl.checkCookie = function () {
         cl.div.innerHTML = '<p style="color:white">Su questo sito utilizziamo cookie tecnici e per raccogliere '+
             'in modo anonimo statistiche sugli accessi<p>'+
             '<a href="javascript:void(0)" onclick="cl.acceptCookies()">OK</a>';
-        document.getElementsByTagName('body')[0].appendChild(div);
+        document.getElementsByTagName('body')[0].appendChild(cl.div);
         cl.div.style.position='fixed';
         cl.div.style.width="100%";
         cl.div.style.background="rgba(0,0,0,0.7)";
