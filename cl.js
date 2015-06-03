@@ -39,6 +39,7 @@ cl.checkCookie = function () {
             '<a style="color: black;background: white;padding: .5em 2em;border: 1px solid black;" href="javascript:void(0)" onclick="cl.acceptCookies()">OK</a></p>';
         document.getElementsByTagName('body')[0].appendChild(cl.div);
         cl.div.style.position='fixed';
+        cl.div.style.bottom='0';
         cl.div.style.width="100%";
         cl.div.style.background="rgba(0,0,0,0.75)";
         
