@@ -42,4 +42,4 @@ cl.checkCookie = function () {
     }
 };
 
-checkCookie();
+cl.checkCookie();
