@@ -50,6 +50,7 @@ cl.checkCookie = function () {
       '<p style="text-align:center">' +
       '<a style="text-decoration:none;color: black;background: white;padding: 5px;border: 0;position: absolute;right: 5px;bottom: 5px;width: 32px;" href="javascript:void(0)" onclick="cl.acceptCookies()">OK</a></p>';
     cl.div.style.position = 'fixed';
+    cl.div.style.zIndex = '99999';
     cl.div.style.right = '15px';
     cl.div.style.bottom = '15px';
     cl.div.style.background = "rgba(0,0,0,0.85)";
